@@ -258,16 +258,16 @@ section .title::after{
 }
 
 /* services section styling */
-.services, .teams{
+.services, .task{
     color:#fff;
     background: #111;
 }
 .services .title::before,
-.teams .title::before{
+.task .title::before{
     background: #fff;
 }
 .services .title::after,
-.teams .title::after{
+.task .title::after{
     background: #111;
     content: "what i provide";
 }
@@ -303,11 +303,11 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 
-/* teams section styling */
-.teams .title::after{
+/* task section styling */
+.task .title::after{
     content: "Elektronika";
 }
-.teams .carousel .card{
+.task .carousel .card{
     background: #222;
     border-radius: 6px;
     padding: 25px 35px;
@@ -315,25 +315,25 @@ section .title::after{
     overflow: hidden;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover{
+.task .carousel .card:hover{
     background: crimson;
 }
-.teams .carousel .card .box{
+.task .carousel .card .box{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover .box{
+.task .carousel .card:hover .box{
     transform: scale(1.05);
 }
-.teams .carousel .card .text{
+.task .carousel .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
-.teams .carousel .card img{
+.task .carousel .card img{
     height: 150px;
     width: 150px;
     object-fit: cover;
@@ -341,7 +341,7 @@ section .title::after{
     border: 5px solid crimson;
     transition: all 0.3s ease;
 }
-.teams .carousel .card:hover img{
+.task .carousel .card:hover img{
     border-color: #fff;
 }
 .owl-dots{
